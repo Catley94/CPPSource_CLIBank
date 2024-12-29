@@ -4,16 +4,17 @@
 class Bank {
 
 public:
-    void Bank();
-    void ~Bank();
+    Bank();
+    ~Bank();
 
     float GetBalance();
+    void PrintBalance();
     void Deposit(float amount);
     void Withdraw(float amount);
 
 
 private:
-    float balance;
+    float balance = 0.0f;
 
 };
 
