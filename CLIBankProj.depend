@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1735508940 source:/home/sam/CPPProjects/CLIBankProj/main.cpp
+	<iostream>
+	"hello.h"
+
+1735509016 /home/sam/CPPProjects/CLIBankProj/hello.h
+
+1735508922 source:/home/sam/CPPProjects/CLIBankProj/hello.cpp
+	<iostream>
+
