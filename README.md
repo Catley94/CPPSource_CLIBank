@@ -2,6 +2,6 @@
 
 ## Features
 
-Allows viewing balance
-Allows Deposits
-Allows Withdrawals (Has error checking so you cannot withdraw more than the balance)
+- Allows viewing balance
+- Allows Deposits
+- Allows Withdrawals (Has error checking so you cannot withdraw more than the balance)
