@@ -24,6 +24,7 @@ void DisplayUserChoices()
     cout << "4. Clear Screen" << endl;
     cout << "5. Exit" << endl;
     cout << "______________________________________" << endl;
+    cout << endl;
 }
 
 int main()
