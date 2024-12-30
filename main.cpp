@@ -32,10 +32,6 @@ int main()
 
     Bank BankSystem;
 
-    Print("hello", "Red", true);
-
-    cout << "Banking system starting..." << endl;
-
     BankSystem.PrintBalance();
 
     int  userChoice = 0;
@@ -72,7 +68,8 @@ int main()
                     BankSystem.PrintBalance();
 
                     cout << endl;
-                    cout << "How much would you like to deposit? ";
+                    //cout << "How much would you like to deposit? ";
+                    Print("How much would you like to deposit? ", "White", false);
 
                     cin >> depositAmount;
 
@@ -95,7 +92,8 @@ int main()
                     BankSystem.PrintBalance();
 
                     cout << endl;
-                    cout << "How much would you like to withdraw? ";
+                    //cout << "How much would you like to withdraw? ";
+                    Print("How much would you like to withdraw? ", "White", false);
 
                     cin >> withdrawAmount;
 
@@ -125,7 +123,8 @@ int main()
             default:
                 // Not supported option
 
-                cout << "That's not an option, please choose from 1, 2, 3 or 4." << endl;
+                //cout << "That's not an option, please choose from 1, 2, 3 or 4." << endl;
+                Print("That's not an option, please choose from 1, 2, 3 or 4.", "Red", false);
                 return 1;
                 break;
         }

@@ -8,13 +8,14 @@
 1735508922 source:/home/sam/CPPProjects/CLIBankProj/hello.cpp
 	<iostream>
 
-1735565384 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/Bank.cpp
+1735590910 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/Bank.cpp
 	<iostream>
 	"Bank.h"
+	"Utils.h"
 
 1735512084 /home/sam/Documents/GitHub/CPPSource_CLIBank/Bank.h
 
-1735568282 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/main.cpp
+1735591102 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/main.cpp
 	<iostream>
 	"Bank.h"
 	"Utils.h"
@@ -22,7 +23,7 @@
 1735568304 /home/sam/Documents/GitHub/CPPSource_CLIBank/Utils.h
 	<string>
 
-1735568323 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/Utils.cpp
+1735590999 source:/home/sam/Documents/GitHub/CPPSource_CLIBank/Utils.cpp
 	<iostream>
 	<string.h>
 	"Utils.h"
