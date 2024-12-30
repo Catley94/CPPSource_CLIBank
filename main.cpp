@@ -66,16 +66,7 @@ int main()
 
                     cin >> depositAmount;
 
-                    if(depositAmount > 0.0f)
-                    {
-                        cout << endl;
-                        cout << "Deposit Accepted." << endl;
-                        BankSystem.Deposit(depositAmount);
-                    }
-                    else
-                    {
-                        cout << "Deposit needs to be a positive number, deposit rejected." << endl;
-                    }
+                    BankSystem.Deposit(depositAmount);
 
                     DisplayUserChoices();
                     break;
@@ -91,16 +82,7 @@ int main()
 
                     cin >> withdrawAmount;
 
-                    if(withdrawAmount > 0.0f)
-                    {
-                        cout << endl;
-                        cout << "Withdrawl Accepted." << endl;
-                        BankSystem.Withdraw(withdrawAmount);
-                    }
-                    else
-                    {
-                        cout << "Withdrawal amount needs to be a positive number, withdrawal rejected." << endl;
-                    }
+                    BankSystem.Withdraw(withdrawAmount);
 
                     DisplayUserChoices();
                     break;
