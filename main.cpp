@@ -50,6 +50,8 @@ int main()
                 {
                     //Print Balance
 
+                    clearScreen();
+
                     BankSystem.PrintBalance();
 
                     DisplayUserChoices();
@@ -62,11 +64,18 @@ int main()
 
                     float depositAmount = 0.0f;
 
+                    clearScreen();
+
+                    BankSystem.PrintBalance();
+
+                    cout << endl;
                     cout << "How much would you like to deposit? ";
 
                     cin >> depositAmount;
 
                     BankSystem.Deposit(depositAmount);
+
+                    BankSystem.PrintBalance();
 
                     DisplayUserChoices();
                     break;
@@ -78,11 +87,18 @@ int main()
 
                     float withdrawAmount = 0.0f;
 
+                    clearScreen();
+
+                    BankSystem.PrintBalance();
+
+                    cout << endl;
                     cout << "How much would you like to withdraw? ";
 
                     cin >> withdrawAmount;
 
                     BankSystem.Withdraw(withdrawAmount);
+
+                    BankSystem.PrintBalance();
 
                     DisplayUserChoices();
                     break;
