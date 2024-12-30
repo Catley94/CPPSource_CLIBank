@@ -3,7 +3,6 @@
 
 #include <string>
 
-void Print(char message);
-
+void Print(std::string message, std::string colour, bool bold = false);
 
 #endif // UTILS_H_INCLUDED

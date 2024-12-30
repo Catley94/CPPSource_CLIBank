@@ -32,6 +32,8 @@ int main()
 
     Bank BankSystem;
 
+    Print("hello", "Red", true);
+
     cout << "Banking system starting..." << endl;
 
     BankSystem.PrintBalance();
